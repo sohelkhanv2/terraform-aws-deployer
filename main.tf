@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_iam_role" "lambda_exec_role" {
-  name = "terraform_role"
+  name = "terraform_role_v2"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
