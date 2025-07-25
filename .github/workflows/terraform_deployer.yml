@@ -3,7 +3,7 @@ name: Terraform Lambda Deploy
 on:
   push:
     branches:
-      - main  # or change to your deploy branch
+      - main  
 
 jobs:
   terraform:
